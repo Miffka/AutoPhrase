@@ -42,7 +42,7 @@ fi
 
 echo ${green}===Tokenization===${reset}
 
-TOKENIZER="-cp .:tools/tokenizer/lib/*:tools/tokenizer/resources/:tools/tokenizer/build/ Tokenizer"
+TOKENIZER="-cp .:tools/tokenizer/lib/*:tools/tokenizer/resources/:tools/tokenizer/build/ Tokenizer -l RU"
 TOKENIZED_TRAIN=tmp/tokenized_train.txt
 CASE=tmp/case_tokenized_train.txt
 TOKEN_MAPPING=tmp/token_mapping.txt
